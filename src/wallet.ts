@@ -12,7 +12,7 @@ import {
 } from "solana-test-validator-js";
 
 import __dirname from "./utils/__dirname";
-import { tWallet } from "./types/wallet";
+import { tWallet } from "./types/wallet.types";
 
 const WALLET_BALANCE = __dirname(import.meta.url, "balance.json");
 
