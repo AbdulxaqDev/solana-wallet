@@ -1,0 +1,25 @@
+{
+  "name": "solana_wallet",
+  "version": "1.0.0",
+  "description": "Solana wallet task",
+  "main": "wallet.ts",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AbdulxaqDev/solana-wallet.git"
+  },
+  "keywords": [
+    "solana",
+    "blockchain",
+    "transactions",
+    "wallet"
+  ],
+  "author": "AbdulxaqDev",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AbdulxaqDev/solana-wallet/issues"
+  },
+  "homepage": "https://github.com/AbdulxaqDev/solana-wallet#readme"
+}
