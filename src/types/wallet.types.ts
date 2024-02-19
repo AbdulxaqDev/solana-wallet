@@ -1,4 +1,6 @@
+import { PublicKey } from "@solana/web3.js";
+
 export type tWallet = {
-  publicKey: string;
+  publicKey: PublicKey;
   privateKey: Uint8Array;
 };
