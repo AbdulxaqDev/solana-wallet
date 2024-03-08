@@ -8,7 +8,7 @@
     "test": "jest",
     "build": "webpack",
     "start": "node public/bundle.cjs",
-    "start:dev": "tsx watch src/*.ts",
+    "start:dev": "tsx watch --no-warnings src/wallet.ts",
     "start:prod": "npm run build && npm start"
   },
   "repository": {
@@ -28,9 +28,13 @@
   },
   "homepage": "https://github.com/AbdulxaqDev/solana-wallet#readme",
   "devDependencies": {
+    "solana-test-validator-js": "^1.0.2",
     "ts-loader": "^9.5.1",
     "tsx": "^4.7.1",
     "webpack": "^5.90.2",
     "webpack-cli": "^5.1.4"
+  },
+  "dependencies": {
+    "@solana/web3.js": "^1.90.0"
   }
 }
